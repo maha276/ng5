@@ -2,21 +2,23 @@
   "name": "ng5",
   "version": "0.0.0",
   "scripts": {
+    "deploy": "ng b --prod --base-href https://maha276.github.io/ng5/ && ngh --dir=dist/ng5" ,
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://maha276.github.io/ng5/ && angular-cli-ghpages"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^8.2.4",
+    "@angular/animations": "^8.2.5",
+    "@angular/cdk": "^8.1.4",
     "@angular/common": "~8.2.3",
     "@angular/compiler": "~8.2.3",
     "@angular/core": "~8.2.3",
     "@angular/forms": "~8.2.3",
+    "@angular/material": "^8.1.4",
     "@angular/platform-browser": "~8.2.3",
     "@angular/platform-browser-dynamic": "~8.2.3",
     "@angular/router": "~8.2.3",
